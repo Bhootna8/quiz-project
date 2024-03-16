@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+.admin-page {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto;
+}
+
+aside {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+section {
+    grid-column: 2;
+    grid-row: 1;
+}
